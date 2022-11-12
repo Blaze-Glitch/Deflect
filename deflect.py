@@ -215,7 +215,7 @@ def game():
             dy = 0
             player_attrib_1[0] = 0
             player_attrib_2[0] = 0
-            draw_text(f"Game Over : Press Arrow Keys to Restart", GAME_FONT, COLOR[3], screen, SCREEN_WIDTH/2, SCREEN_HEIGHT/2)
+            draw_text(f"Game Over : Press Arrow Keys to Restart!", GAME_FONT, COLOR[3], screen, SCREEN_WIDTH/2, SCREEN_HEIGHT/2)
             end = True
         
         # FPS
